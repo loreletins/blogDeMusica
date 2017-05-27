@@ -1,0 +1,278 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*****header*****/
+a:hoover{
+	font-weight: bold;
+	text-decoration: none;
+}
+.header{
+	background-image: url(../img/header1.jpg);
+	max-width: 100%;
+	height: 180px;
+	
+}
+
+/******section*****/
+h2{
+	font-family: ubuntu;
+}
+h3{
+	font-family: ubuntu;
+	color: #2081C3;
+}
+p{
+	font-family: nunito;
+}
+a{
+	color:#005377;
+}
+/****discos****/
+.adelantoqotsa{
+	margin-top: 30px;
+	border-right: solid #565857;
+}
+.adelantoqotsa img {
+	margin-left: 50px;
+}
+.discos1{
+	margin-top: 30px;
+	border-right: solid #565857;
+	padding-bottom: 40px;
+	height:  100%;
+}
+.discos1 img{
+	margin-left: 70px;
+}
+.discos2{
+	margin-top: 30px;
+	border-right: solid #565857;
+	background-color:#CAFFB9;
+}
+.discos3{
+	margin-top: 30px;
+	border-right: solid #565857;
+}
+.discos4{
+	margin-top: 30px;
+}
+.discos5{
+	margin-top:30px;
+	background-color: #AEF78E;
+	padding-bottom: 28px;
+}
+.discos5 img{
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.containeradelantos1{
+	display: none;
+}
+.discos6{
+	margin-top: 30px;
+	border-right: solid #565857;
+	padding-bottom: 40px;
+}
+.discos7{
+	margin-top: 30px;
+	border-right: solid #565857;
+}
+.video{
+	border-right: solid #565857;
+	margin-top: 30px;
+}
+.video iframe{
+	margin-left: 45px;
+}
+.video1 iframe{
+	margin-left: 80px;
+}
+.recomendado2{
+	margin-top: 30px;
+	border-right: solid #565857;
+	background-color:#CAFFB9;
+	padding-bottom: 55px;
+	height: 100%;	
+}
+.recomendado1{
+	margin-top: 30px;
+	border-right: solid #565857;
+	background-color:#CAFFB9;
+	padding-bottom: 55px;
+	height: 100%;
+}
+.recomendadocuery{
+	display: none;
+}
+/***agenda***/
+.agenda{
+	margin-top: 30px;
+	background-color: #97ABB1;
+    border-right: solid #565857;
+	padding-bottom: 30px;
+}
+.agenda2{
+	display: none;
+}
+/***disquerias***/
+.disquerias {
+	margin-top: 30px;
+	border-right: solid #565857;
+	text-align: center;
+}
+.disquerias h4{
+	font-family: ubuntu;
+	color: #2081C3;
+}
+.disquerias img{
+	width: 100px;
+	height: 80px;
+	justify-content: center;
+}
+.disqueria1{
+	background-color: #DFFFA5; 
+	padding: 50px;
+}
+.disqueriapar{
+	background-color: #E9EFD7;
+	padding: 50px;
+}
+/***newsletter***/
+.news{
+	margin-top: 10%;
+	text-align: center;
+	background-color: #E9EFD7;
+	padding: 45px;
+}
+.news h4{
+	font-family: ubuntu;
+	color: #2081C3;
+}
+.news2{
+	display: none;
+}
+/***encuesta***/
+.encuesta{
+	margin-top: 40px;
+	padding-bottom: 20px;
+	font-family: ubuntu;
+	color: #2081C3;
+}
+.form-group{
+	margin-top: 40px;
+}
+/**********footer************/
+.footer{
+	font-family: ubuntu;
+	color: #2081C3;
+	display: flex;
+	justify-content: flex-end;
+}
+/******************Media queries***************************/
+/*Tablet landscape*/
+@media screen and (max-width: 800px) {
+
+ 
+/*Tablet portrait*/
+@media screen and (max-width: 600px) {
+	iframe{
+		margin-left: 0%;
+		width: 100%;
+	}
+	.adelantoqotsa {
+		border-right: none;
+		display: none;
+	}
+	.discos1 {
+		border-right: none;
+	}
+	.recomendado{
+		border-right: none;
+	}
+	.discos{
+		display: block;
+	}
+	.discos img{
+		margin-right: auto;
+	}
+	.discos2{
+		border-right: none;	
+	}
+	.discos3{
+		border-right: none;
+	}
+	.discos4{
+	}
+	.discos5{
+		border-right: none;
+	}
+	.discos5 img{
+		width: 100%;
+		margin-left: auto;
+	}
+	.discos6{
+		border-right: none;
+	}
+	.disquerias{
+		border-right: none;	
+	}
+	.agenda{
+		 border-right: none;
+		 display: none;
+	}
+	.agenda2{
+		display: block;
+		margin-top: 30px;
+		background-color: #97ABB1;
+		padding-bottom: 30px;
+	}
+	.news{
+		display: none
+	}
+	.news2{
+		display: block;
+	}
+	.news2{
+	margin-top: 10%;
+	text-align: center;
+	background-color: #E9EFD7;
+	padding: 45px;
+	}
+	.news2 h4{
+	font-family: ubuntu;
+	color: #2081C3;
+	}
+	.video{
+		border-right: none;
+	}
+	.video iframe{
+		height: 100%;
+		width: 100%;
+		margin-left: -5px;
+	}
+	.video1{
+		display: none;
+	}	
+	.recomendado1cuery{
+		display: block;
+	}
+	.recomendado2{
+		display: none;
+	}
+	.recomendado1{
+		border-right: none;
+	}
+	.recomendadocuery{
+		display: block;
+	}
+	.containeradelantos1{
+		display: block;
+	}
+	.linea3{
+		display: none;
+	}
+}
